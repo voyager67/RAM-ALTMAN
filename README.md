@@ -13,7 +13,7 @@ You may have thought of this as "a computer working normally". On a recent episo
 
 > "From a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer"
 >
-> — Sam Altman
+> — Sam Altman ([Cheeky Pint transcript](https://share.transistor.fm/s/92f18066/transcript))
 
 That RAM, he added, is "being used maybe 5% of the time".
 
@@ -74,8 +74,8 @@ On kernels older than 3.14 (no `MemAvailable`), the script estimates available m
 You'll need Linux, bash, `awk`, standard core utilities, `flock`, and a working `sendmail`, `msmtp` or `mail` command for email delivery. Webhook delivery additionally requires `curl`. Your RAM is assumed.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ram-sentinel.git
-cd ram-sentinel
+git clone https://github.com/voyager67/RAM-ALTMAN.git
+cd RAM-ALTMAN
 chmod +x ram-sentinel.sh test-ram-sentinel.sh tests/test-ram-sentinel-extended.sh
 
 ./ram-sentinel.sh --status    # see the evidence against you
@@ -114,7 +114,7 @@ export RAM_SENTINEL_THRESHOLD="10"
 The dry run previews the email and does not send it or create the state directory. When the preview looks right, add a cron entry with `crontab -e`:
 
 ```cron
-*/5 * * * * RAM_SENTINEL_TO="you@example.com" RAM_SENTINEL_FROM="ram-sentinel@example.com" /absolute/path/to/ram-sentinel/ram-sentinel.sh
+*/5 * * * * RAM_SENTINEL_TO="you@example.com" RAM_SENTINEL_FROM="ram-sentinel@example.com" /absolute/path/to/RAM-ALTMAN/ram-sentinel.sh
 ```
 
 The script samples every five minutes and sends at most one successful report per local calendar day, provided available RAM is **strictly greater** than the configured threshold. At exactly 10%, a 10% threshold does not trigger. If delivery fails, the date is not recorded and a later run can retry.
