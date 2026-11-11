@@ -11,6 +11,15 @@
 
 <sub>Illustrative parody artwork with sample figures, not a live screenshot.</sub>
 
+## Community meme gallery
+
+A few more interpretations of the central premise: your RAM is apparently everybody's business now.
+
+| | |
+|:---:|:---:|
+| ![RAM Sentinel alert artwork](assets/1000119874.png) | ![RAM-ALTMAN project artwork](assets/1000119875.png) |
+| ![Sam wants the RAM back artwork](assets/1000119876.png) | |
+
 There is RAM in your computer. Right now. Just sitting there, in a *personal* computer, being personal.
 
 You may have thought of this as "a computer working normally". On a recent episode of Cheeky Pint, the CEO of OpenAI offered another view:
