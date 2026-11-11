@@ -7,6 +7,10 @@
 [![Emails: 1 per day](https://img.shields.io/badge/emails-1%20per%20day-blue)](#)
 [![Written in Bash, not Electron](https://img.shields.io/badge/written%20in-bash%2C%20not%20electron-brightgreen)](#)
 
+![RAM-ALTMAN meme artwork: a report from your desktop's spare RAM](assets/ram-altman-meme.svg)
+
+<sub>Illustrative parody artwork with sample figures, not a live screenshot.</sub>
+
 There is RAM in your computer. Right now. Just sitting there, in a *personal* computer, being personal.
 
 You may have thought of this as "a computer working normally". On a recent episode of Cheeky Pint, the CEO of OpenAI offered another view:
