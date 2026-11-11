@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">RAM-ALTMAN - The Daily RAM Report</title>
+  <desc id="desc">A playful illustration of a RAM stick holding a report beside a Linux terminal showing 8.6 GiB available and a daily report addressed to Sam.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d18"/><stop offset="1" stop-color="#17243a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18263b"/><stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c6ff6b"/><stop offset="1" stop-color="#70dc82"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#5b7496" opacity=".24"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="28" fill="url(#dots)"/>
+  <path d="M0 500 C190 455 260 550 430 510 S760 475 930 515 S1080 550 1200 500 V675 H0Z" fill="#0b1220" opacity=".7"/>
+  <text x="64" y="86" fill="#c8d5e8" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">A VERY SERIOUSLY UNNECESSARY OPEN-SOURCE PROJECT</text>
+  <text x="60" y="166" fill="#f4f7fb" font-family="Arial,sans-serif" font-size="76" font-weight="900" letter-spacing="-3">RAM-<tspan fill="#a7ef63">ALTMAN</tspan></text>
+  <text x="66" y="207" fill="#b9c7d9" font-family="Arial,sans-serif" font-size="25">Your desktop has spare RAM. Someone should probably know.</text>
+  <rect x="64" y="260" width="495" height="292" rx="22" fill="url(#panel)" stroke="#40536e" stroke-width="2"/>
+  <rect x="64" y="260" width="495" height="50" rx="22" fill="#24344c"/>
+  <path d="M64 288 V310 H559 V288" fill="#24344c"/>
+  <circle cx="94" cy="285" r="7" fill="#ff6b6b"/><circle cx="119" cy="285" r="7" fill="#ffd166"/><circle cx="144" cy="285" r="7" fill="#7bd88f"/>
+  <text x="174" y="293" fill="#dce7f5" font-family="monospace" font-size="17">ram-sentinel.sh --status</text>
+  <text x="98" y="365" fill="#a7ef63" font-family="monospace" font-size="19">$ RAM Sentinel 1.0.0</text>
+  <text x="98" y="414" fill="#f2f6fc" font-family="monospace" font-size="24">Available: 8.6 GiB</text>
+  <text x="98" y="454" fill="#a7ef63" font-family="monospace" font-size="22">56.2% of installed RAM</text>
+  <rect x="98" y="476" width="420" height="2" fill="#3a4a61"/>
+  <text x="98" y="515" fill="#ffcf70" font-family="monospace" font-size="17">Threshold crossed: &gt; 10% available</text>
+  <rect x="628" y="260" width="508" height="292" rx="22" fill="#f2e5c7" transform="rotate(1 882 406)"/>
+  <path d="M1022 260 L1128 260 L1128 292" fill="#d7c49a" opacity=".6"/>
+  <text x="680" y="327" fill="#354156" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">TO: SAM</text>
+  <text x="680" y="377" fill="#172235" font-family="Georgia,serif" font-size="31" font-weight="700">Dear Sam,</text>
+  <text x="680" y="421" fill="#26364b" font-family="Georgia,serif" font-size="23">I found 8.6 GiB of available</text>
+  <text x="680" y="454" fill="#26364b" font-family="Georgia,serif" font-size="23">RAM sitting on this desk.</text>
+  <text x="680" y="487" fill="#26364b" font-family="Georgia,serif" font-size="23">Just thought you should know.</text>
+  <path d="M682 505 C790 515 910 515 1036 503" stroke="#e16d54" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="680" y="535" fill="#58677a" font-family="Georgia,serif" font-size="16" font-style="italic">One report per day. We have manners.</text>
+  <!-- Cartoon RAM module -->
+  <g transform="translate(510 414) rotate(-8)">
+    <rect x="0" y="0" width="92" height="176" rx="12" fill="#213b34" stroke="#a7ef63" stroke-width="4"/>
+    <rect x="12" y="18" width="68" height="30" rx="5" fill="#111c2b" stroke="#6d9b67"/>
+    <rect x="12" y="57" width="68" height="30" rx="5" fill="#111c2b" stroke="#6d9b67"/>
+    <rect x="12" y="96" width="68" height="30" rx="5" fill="#111c2b" stroke="#6d9b67"/>
+    <circle cx="33" cy="32" r="3" fill="#c6ff6b"/><circle cx="57" cy="32" r="3" fill="#c6ff6b"/>
+    <path d="M28 43 Q45 55 64 43" stroke="#c6ff6b" stroke-width="2" fill="none"/>
+    <path d="M-7 137 L-20 154 M99 137 L112 154" stroke="#a7ef63" stroke-width="7" stroke-linecap="round"/>
+    <path d="M12 176 V189 M27 176 V189 M42 176 V189 M57 176 V189 M72 176 V189" stroke="#d9b75e" stroke-width="7"/>
+  </g>
+  <g transform="translate(576 575)">
+    <rect x="0" y="0" width="560" height="52" rx="14" fill="#24354b" stroke="#526985"/>
+    <text x="26" y="33" fill="#dce7f5" font-family="Arial,sans-serif" font-size="17" font-weight="700">LINUX</text>
+    <circle cx="124" cy="26" r="4" fill="#a7ef63"/>
+    <text x="144" y="33" fill="#dce7f5" font-family="Arial,sans-serif" font-size="17">BASH</text>
+    <circle cx="235" cy="26" r="4" fill="#a7ef63"/>
+    <text x="255" y="33" fill="#dce7f5" font-family="Arial,sans-serif" font-size="17">CRON</text>
+    <circle cx="347" cy="26" r="4" fill="#a7ef63"/>
+    <text x="367" y="33" fill="#dce7f5" font-family="Arial,sans-serif" font-size="17">EMAIL + WEBHOOKS</text>
+  </g>
+  <text x="64" y="620" fill="#7f91a9" font-family="Arial,sans-serif" font-size="15">PARODY ARTWORK • ILLUSTRATIVE SAMPLE VALUES • NOT A LIVE SCREENSHOT</text>
+</svg>
