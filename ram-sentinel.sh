@@ -19,7 +19,7 @@
 #   used = MemTotal - MemAvailable
 # MemAvailable is preferred because it accounts for memory the kernel can reclaim.
 #
-# License: Unlicense (see licenses/UNLICENSE.txt)
+# License: Unlicense (see LICENSE)
 
 set -Eeuo pipefail
 IFS=$'\n\t'
