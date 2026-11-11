@@ -1,0 +1,21 @@
+name: shell checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Validate Bash syntax
+        run: bash -n ram-sentinel.sh test-ram-sentinel.sh tests/*.sh
+      - name: Run supplied regression suite
+        run: ./test-ram-sentinel.sh
+      - name: Run extended feature suite
+        run: ./tests/test-ram-sentinel-extended.sh
